@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/hot/main",
+    "pages/new/main",
+    "pages/detail/main"
+  ],
+  "usingComponents": {
+    "van-button": "/static/vant/button/index"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/hot/main",
+        "text": "最热",
+        "iconPath": "static/images/hot.png",
+        "selectedIconPath": "static/images/hot_act.png"
+      },
+      {
+        "pagePath": "pages/new/main",
+        "text": "最新",
+        "iconPath": "static/images/new.png",
+        "selectedIconPath": "static/images/new_act.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}
